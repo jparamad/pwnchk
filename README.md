@@ -1,9 +1,10 @@
 #!/usr/bin/python
 # PwnChk - by John Paramadilok (2020.09)
-# This program checks passwords against those identified in HIBP to
+# This script checks passwords against those identified in HIBP to
 # be compromised.
 #
 # Dependencies:
+#   - HIBP API, haveibeenpwned.com
 #   - os.subprocess uses shred
 #   - requests package
 #
