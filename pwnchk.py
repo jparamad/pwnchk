@@ -175,7 +175,7 @@ def help_func():
 def menu_func():
     """Runs Menu-based Interface"""
     cin = input('pwnchk>> ')
-    while cin != 'quit':
+    while cin != 'q':
         if cin == 'add':
             add_func()
         elif cin == 'del':
