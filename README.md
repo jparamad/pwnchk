@@ -1,3 +1,4 @@
+```text
 # !/usr/bin/python
 # PwnChk - by John Paramadilok (2020.09)
 # This script checks hashed passwords against those identified in
