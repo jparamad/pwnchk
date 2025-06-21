@@ -98,10 +98,6 @@ def add_func():
 
     fencode_func(pass_hash)
 
-    # f = open(flist, 'a')
-    # f.write(pass_hash + '\n')
-    # f.close()
-
 
 def del_func():
     """Deletes hash list"""
@@ -134,6 +130,7 @@ def import_func():
     else:
         print('[ERROR: File not found - Terminating.]')
 
+
 def num_func(num):
     """Displays list count"""
     if str(os.path.exists(flist)) != 'True':
@@ -160,7 +157,6 @@ def num_func(num):
 def run_func():
     global db_type
 
-    print(db_type)
     if db_type == 1:
         llr_func()
     elif db_type == 2:
